@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Tomato::Application.config.secret_token = '80144723c828ff96f004ea2dc1c759d39f2b83c4c984e882d238e20aac8246f17d1736f1038a61102cbcb4c835becb06853b036a63c1af679c407d7847ac5db4'
+TestBlog::Application.config.secret_token = '3df8a129647307221ea5132e2434e108fdd37f13b6702cf84f72c1ebd56f2529abb64401423a0deeaa6482041d993d16094e5e0e936ed4d5e7e28cf43d7b3203'
