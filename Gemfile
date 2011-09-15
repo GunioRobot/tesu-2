@@ -11,13 +11,12 @@ gem 'mysql2', '0.3.7'
 
 gem 'jquery-rails'
 
-gem 'capistrano'
 
 # Use unicorn as the web server
-# gem 'unicorn'
+gem 'unicorn'
 
 # Deploy with Capistrano
-# gem 'capistrano'
+gem 'capistrano'
 
 # To use debugger
 
@@ -31,7 +30,7 @@ gem 'capistrano'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test do
-	#gem 'ruby-debug'
+	gem 'ruby-debug19'
 	gem 'rspec-rails' 
 	gem 'webrat'
 end
